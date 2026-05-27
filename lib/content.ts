@@ -173,7 +173,7 @@ export const hero = {
   headline: "I'm not running for me.",
   headlineAccent: "I'm running for us.",
   subhead:
-    "Enough is enough. I came to America from the Soviet Union as a four-year-old refugee. I helped Donald Trump and Rudy Giuliani build MAGA — and I woke up. I served my time. Nobody knows how this system operates better than I do, and nobody will fight harder to expose it. I'm not backed by corporations. I'm not backed by PACs. I'm backed by you.",
+    "Enough is enough. I came to America from the Soviet Union as a four-year-old refugee. I helped Donald Trump and Rudy Giuliani build MAGA — and I woke up. Nobody knows how this system operates better than I do, and nobody will fight harder to expose it. I'm not backed by corporations. I'm not backed by PACs. I'm backed by you.",
   emailCtaLabel: "Get on the list. Updates from me and the team — nothing else.",
   primaryCta: { href: "/donate", label: "Donate" },
   secondaryCta: { href: "/join", label: "Join us" },
@@ -202,9 +202,7 @@ export const homeStoryTeaser = {
     "Refugee. Father of six. Witness. Fighter.",
   body: `I came to America from the Soviet Union as a four-year-old refugee. America took my family in. Brooklyn raised me. Florida built me. I've been a husband, a father of six, a businessman in this community for three decades.
 
-Then I helped Donald Trump and Rudy Giuliani build MAGA. I broke the law inside that operation. I went to prison for it. I served my time.
-
-And I woke up.
+Then I got close to Donald Trump and Rudy Giuliani. I learned the hard way what was really happening in there. And I woke up.
 
 Nobody knows how this system operates better than I do. I've sat in the rooms. I've watched both parties protect their own while the families on this block get squeezed — groceries, rent, healthcare. I'm done watching. I'm running for the people of Florida's 27th. Enough is enough.`,
   cta: { href: "/story", label: "Read Lev's full story" },
@@ -239,7 +237,7 @@ export const issues = [
       "Maximum age of 75 for federal office. These are jobs, not thrones.",
     ],
     stat: { value: "$0", label: "Corporate, PAC, or party money I will accept" },
-    pullQuote: "I went to prison for breaking the rules. Then I came home and watched senators break the same rules in public and call it lawful. The rules are the problem.",
+    pullQuote: "I paid the price for breaking the rules. Then I watched senators break the same ones in public and call it lawful. The rules are the problem.",
   },
   {
     id: "accountability",
@@ -282,8 +280,8 @@ export const issues = [
       "End partisan gerrymandering. Voters pick politicians, not the other way around.",
       "Public financing options so candidates spend their time talking to voters, not donors.",
     ],
-    stat: { value: "20", label: "Months I was sentenced to for crimes that originated in someone else's authoritarian project" },
-    pullQuote: "I went to prison because I was part of an effort to corrupt an American election. I know what the real thing looks like. I'm running to stop it before it happens again.",
+    stat: { value: "1", label: "Trump impeachment I was a witness in — the one about Ukraine" },
+    pullQuote: "I watched a President try to corrupt an American election. I'm going to spend the rest of my life making sure the next one can't.",
   },
   {
     id: "epstein-survivors",
@@ -343,7 +341,7 @@ export const story = {
       body: `I started my career in real estate — selling Trump Organization co-ops in Brooklyn — and moved to South Florida in the '90s, where I built and ran businesses for three decades. I married my wife Svetlana. We're raising our family in Boca Raton. In 2018, I was introduced to Rudy Giuliani. The relationship grew quickly. Through him, I ended up with proximity to the President of the United States. I was in the rooms. I was in the loop. I helped build MAGA. I'm not going to pretend I didn't enjoy it. I should have asked harder questions about what I was being asked to do. I didn't.`,
     },
     {
-      heading: "I broke the law. I'm not going to pretend otherwise.",
+      heading: "I made the worst mistake of my life.",
       body: `In October 2019 I was arrested at Dulles. The charges were real. A federal jury convicted me in October 2021 on six counts — campaign finance violations, wire fraud, and false statements. I was sentenced in June 2022 to twenty months in federal prison and ordered to pay $2.3 million in restitution. I served my time. I came home in September 2023. I'm not going to stand here and tell you I was framed, because I wasn't. I broke the rules. I paid for it. I almost lost my family. I almost lost my wife and my kids. And I learned more about how Washington really works than any briefing book could have taught me.`,
     },
     {

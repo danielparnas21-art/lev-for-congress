@@ -5,12 +5,12 @@ import { useRef } from "react";
 
 const STAGES = [
   {
-    label: "Convicted",
-    body: "Six counts. October 2021. He didn't run, didn't deny it, didn't fight the facts.",
+    label: "Refugee",
+    body: "Came to America at four years old. Built a life. Built businesses. Built a family in South Florida.",
   },
   {
-    label: "Served",
-    body: "Sentenced to twenty months. $2.3M restitution. He completed his sentence in 2023.",
+    label: "Witness",
+    body: "Told the truth about Trump and Giuliani — on MSNBC, before Congress, in his book. Refused to be silenced.",
   },
   {
     label: "Running",
