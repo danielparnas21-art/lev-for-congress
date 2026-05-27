@@ -340,7 +340,7 @@ export const story = {
     },
     {
       heading: "I built businesses. I built a family. And I got close to power.",
-      body: `I went to Brooklyn College and Baruch. I started my career in real estate — selling Trump Organization co-ops in Brooklyn — and moved to South Florida in the '90s, where I built and ran businesses for three decades. I married my wife Svetlana. We're raising our family in Boca Raton. By 2018, I had a friend named Rudy Giuliani, and through him, proximity to the President of the United States. I was in the rooms. I was in the loop. I helped build MAGA. I'm not going to pretend I didn't enjoy it. I should have asked harder questions about what I was being asked to do. I didn't.`,
+      body: `I went to Brooklyn College and Baruch. I started my career in real estate — selling Trump Organization co-ops in Brooklyn — and moved to South Florida in the '90s, where I built and ran businesses for three decades. I married my wife Svetlana. We're raising our family in Boca Raton. In 2018, I was introduced to Rudy Giuliani. The relationship grew quickly. Through him, I ended up with proximity to the President of the United States. I was in the rooms. I was in the loop. I helped build MAGA. I'm not going to pretend I didn't enjoy it. I should have asked harder questions about what I was being asked to do. I didn't.`,
     },
     {
       heading: "I broke the law. I'm not going to pretend otherwise.",
