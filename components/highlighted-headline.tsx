@@ -59,7 +59,7 @@ export function PosterHeadline({
       <span
         className={`block ${
           lead ? "mt-1 sm:mt-2" : ""
-        } text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[6.5rem] font-extrabold`}
+        } text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[6.5rem] font-extrabold`}
       >
         {accentPre && (
           <>

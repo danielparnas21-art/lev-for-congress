@@ -28,13 +28,13 @@ export default function HomePage() {
       <PatrioticStripe />
 
       {/* HERO — full-bleed documentary trailer background */}
-      <section className="relative overflow-hidden isolate min-h-[90vh] flex items-center text-[var(--color-cream)]">
+      <section className="relative overflow-hidden isolate md:min-h-[90vh] flex items-center text-[var(--color-cream)]">
         <HeroVideo videoId="LIbKyujShRY" posterSrc="/images/lev-hero.jpg" />
 
-        <div className="container-page py-12 md:py-20 w-full relative z-10">
+        <div className="container-page py-8 sm:py-12 md:py-20 w-full relative z-10">
           <div className="max-w-3xl">
             <FadeUp delay={0}>
-              <div className="inline-flex items-center gap-2 mb-6 px-3 py-1.5 border border-[var(--color-gold)]/40 rounded-full bg-[var(--color-navy)]/30 backdrop-blur-sm">
+              <div className="inline-flex items-center gap-2 mb-4 sm:mb-6 px-3 py-1.5 border border-[var(--color-gold)]/40 rounded-full bg-[var(--color-navy)]/30 backdrop-blur-sm">
                 <Star size={10} className="text-[var(--color-gold)] shrink-0" />
                 <p className="text-[10px] sm:text-[11px] font-bold uppercase tracking-[0.18em] text-[var(--color-gold)]">
                   Independent &middot; FL-27 &middot; 2026
@@ -52,14 +52,14 @@ export default function HomePage() {
               </span>
               {/* Line 2 — the punch. Bigger. Heavier. With a crimson highlighter
                   block that swipes in behind "us." like a marker stroke. */}
-              <span className="block mt-1 sm:mt-2 text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7.5rem] font-extrabold">
+              <span className="block mt-1 sm:mt-2 text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7.5rem] font-extrabold">
                 I'm running for <HighlightedFor />
               </span>
             </h1>
 
             <FadeUp delay={0.9}>
               <p
-                className="mt-6 md:mt-8 text-base md:text-lg text-[var(--color-cream-200)] max-w-xl text-pretty leading-relaxed"
+                className="mt-4 sm:mt-6 md:mt-8 text-[15px] sm:text-base md:text-lg text-[var(--color-cream-200)] max-w-xl text-pretty leading-relaxed"
                 style={{ textShadow: "0 2px 16px rgba(0,0,0,0.65)" }}
               >
                 {hero.subhead}
@@ -67,7 +67,7 @@ export default function HomePage() {
             </FadeUp>
 
             <FadeUp delay={1.1}>
-              <div className="mt-8 max-w-xl">
+              <div className="mt-5 sm:mt-8 max-w-xl">
                 <p
                   className="text-[13px] sm:text-sm font-semibold text-[var(--color-cream)] mb-3 flex items-center gap-2"
                   style={{ textShadow: "0 2px 12px rgba(0,0,0,0.7)" }}
@@ -105,7 +105,7 @@ export default function HomePage() {
 
             <FadeUp delay={1.2}>
               <div
-                className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-[13px] text-[var(--color-cream-300)]"
+                className="mt-5 sm:mt-6 flex flex-wrap items-center gap-x-4 sm:gap-x-5 gap-y-2 text-[12px] sm:text-[13px] text-[var(--color-cream-300)]"
                 style={{ textShadow: "0 2px 10px rgba(0,0,0,0.6)" }}
               >
                 <span className="flex items-baseline gap-1.5">
@@ -135,7 +135,7 @@ export default function HomePage() {
 
             <FadeUp delay={1.3}>
               <p
-                className="mt-8 text-[11px] text-[var(--color-cream-300)]/80 uppercase tracking-widest flex items-center gap-2"
+                className="hidden sm:flex mt-6 sm:mt-8 text-[11px] text-[var(--color-cream-300)]/80 uppercase tracking-widest items-center gap-2"
                 style={{ textShadow: "0 2px 8px rgba(0,0,0,0.7)" }}
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-crimson)] animate-pulse" />
