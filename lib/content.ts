@@ -131,7 +131,7 @@ export const pressKit = {
   factSheet: [
     { label: "Born", value: "February 6, 1972 — Odesa, Ukraine" },
     { label: "Immigrated", value: "1976 (age 4) via U.S. Refugee Resettlement" },
-    { label: "Education", value: "Brooklyn College, Baruch College" },
+    { label: "Career", value: "Real estate (Trump Organization co-ops, Brooklyn), then businesses in South Florida from the '90s" },
     { label: "Current residence", value: "South Florida" },
     { label: "Party", value: "Independent" },
     { label: "District", value: "Florida's 27th Congressional District" },
@@ -340,7 +340,7 @@ export const story = {
     },
     {
       heading: "I built businesses. I built a family. And I got close to power.",
-      body: `I went to Brooklyn College and Baruch. I started my career in real estate — selling Trump Organization co-ops in Brooklyn — and moved to South Florida in the '90s, where I built and ran businesses for three decades. I married my wife Svetlana. We're raising our family in Boca Raton. In 2018, I was introduced to Rudy Giuliani. The relationship grew quickly. Through him, I ended up with proximity to the President of the United States. I was in the rooms. I was in the loop. I helped build MAGA. I'm not going to pretend I didn't enjoy it. I should have asked harder questions about what I was being asked to do. I didn't.`,
+      body: `I started my career in real estate — selling Trump Organization co-ops in Brooklyn — and moved to South Florida in the '90s, where I built and ran businesses for three decades. I married my wife Svetlana. We're raising our family in Boca Raton. In 2018, I was introduced to Rudy Giuliani. The relationship grew quickly. Through him, I ended up with proximity to the President of the United States. I was in the rooms. I was in the loop. I helped build MAGA. I'm not going to pretend I didn't enjoy it. I should have asked harder questions about what I was being asked to do. I didn't.`,
     },
     {
       heading: "I broke the law. I'm not going to pretend otherwise.",
