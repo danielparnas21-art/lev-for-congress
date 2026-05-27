@@ -10,7 +10,7 @@ const STAGES = [
   },
   {
     label: "Served",
-    body: "Twenty months in federal prison. $2.3M restitution. He came home in 2023.",
+    body: "Sentenced to twenty months. $2.3M restitution. He completed his sentence in 2023.",
   },
   {
     label: "Running",

@@ -93,7 +93,7 @@ export const pressKit = {
     {
       length: "Medium (120 words)",
       text:
-        "Lev Parnas is an Independent candidate for U.S. Congress in Florida's 27th District (Miami-Dade). Born in Odesa, Ukraine in 1972, he immigrated to the United States with his family as Jewish refugees at age four. After three decades as a South Florida businessman, he became a central figure in the first impeachment of Donald Trump and a federal witness in 2020. He was convicted of campaign finance violations in 2021, served 20 months in federal prison, and completed his sentence in 2023. He testified before the House Oversight Committee in March 2024. His memoir Shadow Diplomacy was published in 2024. He is the subject of the MSNBC Films documentary From Russia with Lev.",
+        "Lev Parnas is an Independent candidate for U.S. Congress in Florida's 27th District (Miami-Dade). Born in Odesa, Ukraine in 1972, he immigrated to the United States with his family as Jewish refugees at age four. After three decades as a South Florida businessman, he became a central figure in the first impeachment of Donald Trump and a federal witness in 2020. He was convicted of campaign finance violations in 2021, sentenced to 20 months in federal prison, and completed his sentence in 2023. He testified before the House Oversight Committee in March 2024. His memoir Shadow Diplomacy was published in 2024. He is the subject of the MSNBC Films documentary From Russia with Lev.",
     },
   ],
   assets: [
@@ -282,7 +282,7 @@ export const issues = [
       "End partisan gerrymandering. Voters pick politicians, not the other way around.",
       "Public financing options so candidates spend their time talking to voters, not donors.",
     ],
-    stat: { value: "20", label: "Months I served for crimes that originated in someone else's authoritarian project" },
+    stat: { value: "20", label: "Months I was sentenced to for crimes that originated in someone else's authoritarian project" },
     pullQuote: "I went to prison because I was part of an effort to corrupt an American election. I know what the real thing looks like. I'm running to stop it before it happens again.",
   },
   {
