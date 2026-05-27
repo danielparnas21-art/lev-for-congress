@@ -74,7 +74,7 @@ export default function JoinPage() {
             {
               kicker: "Free",
               title: "Sign up",
-              body: "Two minutes. Get Lev's first letter and twice-weekly campaign updates.",
+              body: "Two minutes. Welcome note from Lev plus twice-weekly campaign updates.",
               cta: "Add your email",
               href: "#signup",
               tone: "cream",

@@ -139,12 +139,10 @@ export function ExitIntentModal() {
                 >
                   <p className="eyebrow">Before you go</p>
                   <h2 className="display text-3xl md:text-5xl text-[var(--color-navy)] mt-3 text-balance">
-                    Read what Lev is writing.
+                    Stand with Lev.
                   </h2>
                   <p className="mt-4 text-[var(--color-ink)]/85 leading-relaxed">
-                    Get a free copy of Lev's first letter to supporters — what he learned in
-                    prison, what he saw in Washington, and what he plans to do about it. Plus
-                    campaign updates straight from him, twice a week.
+                    Independent campaigns don't get a party email list handed to them — every supporter who signs up makes this campaign possible. Add your name and join the movement for Florida 27.
                   </p>
                   <div className="mt-6 grid gap-3">
                     <input
@@ -166,7 +164,7 @@ export function ExitIntentModal() {
                       className="bg-white border border-[var(--color-line)] px-4 py-3 text-[var(--color-ink)] focus:outline-none focus:border-[var(--color-navy)] rounded-[2px] placeholder:text-[var(--color-muted)]/70"
                     />
                     <button type="submit" disabled={submitting} className="btn-primary w-full !py-3.5">
-                      {submitting ? "Sending…" : "Send me the letter"}
+                      {submitting ? "Joining…" : "Count me in"}
                     </button>
                   </div>
                   {error && (
@@ -265,7 +263,7 @@ export function ExitIntentModal() {
                     {firstName ? `Welcome, ${firstName}.` : "You're in."}
                   </p>
                   <p className="mt-4 text-[var(--color-ink)]/80 leading-relaxed">
-                    Check your inbox — Lev's first letter is on the way.
+                    Thanks for joining. Watch your inbox — campaign updates coming soon.
                   </p>
                   <button
                     onClick={dismiss}

@@ -133,7 +133,7 @@ export function HeroEmailForm() {
               className="mt-3 text-xs text-[var(--color-cream-300)]"
               style={{ textShadow: "0 1px 6px rgba(0,0,0,0.7)" }}
             >
-              We'll send Lev's first letter to supporters as soon as you sign up.
+              We'll send campaign updates straight from Lev's team.
               <span className="opacity-80">
                 {" "}
                 ZIP code is optional — helps us prioritize Florida 27 voters.
@@ -316,7 +316,7 @@ function DoneState({ firstName }: { firstName: string }) {
       </p>
       <p className="display text-3xl md:text-4xl text-balance">{greet}</p>
       <p className="mt-3 text-[var(--color-cream-200)] text-sm leading-relaxed">
-        Lev's first letter is on its way to your inbox. While you wait, the highest-leverage thing you can do is help the campaign two more ways.
+        Thanks for joining the campaign. While you're here, the highest-leverage thing you can do is help two more ways.
       </p>
       <div className="mt-5 flex flex-col sm:flex-row gap-3">
         <a href="/donate" className="btn-primary !py-3 flex-1 text-center">

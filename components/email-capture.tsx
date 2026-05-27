@@ -105,7 +105,7 @@ export function EmailCapture({
               : "mt-2 text-sm text-[var(--color-ink)]/75"
           }
         >
-          Check your inbox — Lev's first letter is on the way.
+          Thanks for joining. Watch your inbox for campaign updates.
         </p>
       </motion.div>
     );

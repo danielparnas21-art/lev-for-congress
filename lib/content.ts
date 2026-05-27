@@ -176,7 +176,7 @@ export const hero = {
   headlineAccent: "I'm running for us.",
   subhead:
     "I'm a refugee. I'm a father of six. I'm from this neighborhood. I'm running for Congress as an Independent because Florida deserves a representative who isn't owned by a party, isn't bankrolled by corporations, and isn't afraid to fight for the people who actually live here.",
-  emailCtaLabel: "Get Lev's first letter to supporters — straight to your inbox.",
+  emailCtaLabel: "Sign up for campaign updates — straight to your inbox.",
   primaryCta: { href: "/donate", label: "Donate" },
   secondaryCta: { href: "/join", label: "Join us" },
 } as const;
@@ -387,7 +387,7 @@ export const joinSection = {
   // What members of the email list actually get
   benefits: [
     {
-      title: "Lev's first letter",
+      title: "A welcome from Lev",
       description: "A personal note from Lev — what he learned, why he's running, what's at stake.",
     },
     {
