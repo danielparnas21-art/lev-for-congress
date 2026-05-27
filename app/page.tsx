@@ -256,53 +256,6 @@ export default function HomePage() {
       {/* MOMENTS GRID */}
       <MomentsGrid />
 
-      {/* WITH THE SURVIVORS — featured advocacy callout */}
-      <section className="bg-[var(--color-navy)] text-[var(--color-cream)] relative overflow-hidden">
-        <Watermark text="SURVIVORS" />
-        <div className="container-page py-20 md:py-28 relative grid lg:grid-cols-[1.2fr_1fr] gap-10 lg:gap-16 items-start">
-          <FadeUp>
-            <Stamp text="With the survivors" color="crimson" className="mb-6" />
-            <p className="eyebrow !text-[var(--color-crimson)] !mb-3">This fight, right now</p>
-            <h2 className="display text-4xl md:text-6xl text-balance leading-[0.98]">
-              I sat with Maria Farmer.
-              <br />
-              I stood with Virginia's brothers.
-              <br />
-              <span className="text-[var(--color-crimson)] italic">I'm not stopping.</span>
-            </h2>
-            <p className="mt-7 text-base md:text-lg text-[var(--color-cream-200)] leading-relaxed max-w-prose">
-              I traveled to West Palm Beach to sit in the House Oversight field hearing — twenty minutes from this district, at the scene of the crime — and listened to Maria Farmer, Dani Bensky, Roza, Courtney Wild, Jena-Lisa Jones, and Sky and Daniel Roberts testify about Jeffrey Epstein and the people who protected him. I traveled to New York for the 24-hour reading of the 3.5 million pages. My petition asking Congress to subpoena 12 named figures has over 47,000 signatures. The Epstein class — on both sides of the aisle — has every reason to keep that file half-redacted forever. I'm going to Washington to make sure they don't.
-            </p>
-            <div className="mt-8 flex flex-col sm:flex-row gap-3">
-              <Link href="/platform#epstein-survivors" className="btn-primary">
-                Read where I stand
-              </Link>
-              <a
-                href="https://www.change.org/p/demand-congress-subpoena-key-figures-on-epstein-case"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-6 py-3.5 text-sm font-bold uppercase tracking-widest border-2 border-[var(--color-cream-300)] text-[var(--color-cream)] rounded-[2px] hover:bg-[var(--color-navy-700)] transition-colors"
-              >
-                Sign the petition &rarr;
-              </a>
-            </div>
-          </FadeUp>
-
-          <FadeUp delay={0.15}>
-            <blockquote className="border-l-4 border-[var(--color-crimson)] pl-6 md:pl-8 max-w-md lg:mt-8">
-              <p className="display text-2xl md:text-3xl leading-tight text-balance">
-                &ldquo;We are not going to let them use these survivors when it is politically useful and abandon them when it is time to stand.&rdquo;
-              </p>
-              <footer className="mt-5 text-xs uppercase tracking-widest text-[var(--color-cream-300)]">
-                Lev Parnas
-                <br />
-                Substack, April 25, 2026
-              </footer>
-            </blockquote>
-          </FadeUp>
-        </div>
-      </section>
-
       {/* ISSUES */}
       <section className="container-page py-20 md:py-28 relative">
         <FadeUp>
