@@ -21,7 +21,6 @@ import { ScribbleUnderline, SparkleAccent } from "@/components/scribble-underlin
 import { HighlightedFor, HighlightedPhrase } from "@/components/highlighted-headline";
 import { LiveSupporterCount } from "@/components/live-supporter-count";
 import { SUPPORTER_BASE_COUNT } from "@/lib/supporter-store";
-import { SectionDivider } from "@/components/section-divider";
 
 export default function HomePage() {
   return (
@@ -205,8 +204,6 @@ export default function HomePage() {
         </FadeUp>
       </section>
 
-      <SectionDivider variant="tear" />
-
       {/* PERSONAL NOTE */}
       <section className="bg-[var(--color-cream-200)]/40 py-24 md:py-32 relative texture-grain">
         <Watermark text="FAMILY" />
@@ -258,12 +255,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      <SectionDivider variant="stars" />
-
       {/* MOMENTS GRID */}
       <MomentsGrid />
-
-      <SectionDivider variant="tear" />
 
       {/* ISSUES */}
       <section className="container-page py-20 md:py-28 relative">
