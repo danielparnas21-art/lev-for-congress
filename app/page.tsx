@@ -8,7 +8,7 @@ import {
   supporterStats,
 } from "@/lib/content";
 import { HeroEmailForm } from "@/components/hero-email-form";
-import { FadeUp, RevealText, Counter, Marquee } from "@/components/anim";
+import { FadeUp, RevealText, Counter, Marquee, MagneticHover } from "@/components/anim";
 import { MomentsGrid } from "@/components/moments-grid";
 import { Signature } from "@/components/signature";
 import { VideoEmbed } from "@/components/video-embed";
@@ -21,6 +21,7 @@ import { ScribbleUnderline, SparkleAccent } from "@/components/scribble-underlin
 import { HighlightedFor, HighlightedPhrase } from "@/components/highlighted-headline";
 import { LiveSupporterCount } from "@/components/live-supporter-count";
 import { SUPPORTER_BASE_COUNT } from "@/lib/supporter-store";
+import { SectionDivider } from "@/components/section-divider";
 
 export default function HomePage() {
   return (
@@ -93,12 +94,14 @@ export default function HomePage() {
                     <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-crimson)] animate-pulse" />
                     Or chip in today
                   </p>
-                  <Link
-                    href="/donate"
-                    className="btn-primary !text-base !py-4 !px-7 inline-flex items-center gap-2"
-                  >
-                    Donate now <span className="text-lg">&rarr;</span>
-                  </Link>
+                  <MagneticHover strength={0.25} className="inline-block">
+                    <Link
+                      href="/donate"
+                      className="btn-primary !text-base !py-4 !px-7 inline-flex items-center gap-2"
+                    >
+                      Donate now <span className="text-lg">&rarr;</span>
+                    </Link>
+                  </MagneticHover>
                 </div>
               </div>
             </FadeUp>
@@ -202,6 +205,8 @@ export default function HomePage() {
         </FadeUp>
       </section>
 
+      <SectionDivider variant="tear" />
+
       {/* PERSONAL NOTE */}
       <section className="bg-[var(--color-cream-200)]/40 py-24 md:py-32 relative texture-grain">
         <Watermark text="FAMILY" />
@@ -253,8 +258,12 @@ export default function HomePage() {
         </div>
       </section>
 
+      <SectionDivider variant="stars" />
+
       {/* MOMENTS GRID */}
       <MomentsGrid />
+
+      <SectionDivider variant="tear" />
 
       {/* ISSUES */}
       <section className="container-page py-20 md:py-28 relative">
@@ -325,7 +334,9 @@ export default function HomePage() {
               I'm not backed by corporations. I'm not backed by PACs. I'm backed by you. Every dollar comes from neighbors — capped at $3,500 by law, $5 is plenty, recurring monthly is what keeps us alive. That's the whole point.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
-              <Link href="/donate" className="btn-primary">Donate now</Link>
+              <MagneticHover strength={0.25} className="inline-block">
+                <Link href="/donate" className="btn-primary">Donate now</Link>
+              </MagneticHover>
               <Link href="/join" className="btn-gold">Other ways to help</Link>
             </div>
           </FadeUp>
