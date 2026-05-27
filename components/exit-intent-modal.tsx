@@ -139,10 +139,10 @@ export function ExitIntentModal() {
                 >
                   <p className="eyebrow">Before you go</p>
                   <h2 className="display text-3xl md:text-5xl text-[var(--color-navy)] mt-3 text-balance">
-                    Stand with Lev.
+                    If you believe.
                   </h2>
                   <p className="mt-4 text-[var(--color-ink)]/85 leading-relaxed">
-                    Independent campaigns don't get a party email list handed to them — every supporter who signs up makes this campaign possible. Add your name and join the movement for Florida 27.
+                    If you believe in accountability. If you believe our government should serve people, not powerful insiders. If you believe it's time to say enough is enough — then add your name. That's how Independent campaigns get built.
                   </p>
                   <div className="mt-6 grid gap-3">
                     <input

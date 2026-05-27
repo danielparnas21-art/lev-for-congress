@@ -48,7 +48,7 @@ export const events = {
   eyebrow: "Events",
   headline: "Show up. In person.",
   intro:
-    "Town halls, meet-and-greets, GOTV canvasses, and debate watch parties. Every event is open to the public. Bring a friend, bring a neighbor, bring your questions.",
+    "Town halls. Meet-and-greets. Canvasses. Debate watches. Every event open to the public. Bring a friend. Bring a neighbor. Bring the hard questions — I want them.",
   // Empty until the campaign confirms its first events. Edit this array to
   // add real events: { id, date (YYYY-MM-DD), time, title, location, venue,
   // type, description, capacity, rsvpHref }.
@@ -153,7 +153,7 @@ export const endorsements = {
   eyebrow: "Endorsements",
   headline: "Standing with Lev.",
   intro:
-    "We add names to this page as endorsements come in. If you'd like to endorse the campaign — as an individual, organization, or coalition — write the team at endorse@levparnas.org.",
+    "Names get added here as endorsements come in. If you're a current or former elected official, a civic leader, a community organization, or a union and you want to back this campaign — write endorse@levparnas.org. I'm not asking for safety. I'm asking for solidarity.",
   // Empty for now — when first endorsements land, populate this array.
   endorsers: [] as Array<{
     name: string;
@@ -173,8 +173,8 @@ export const hero = {
   headline: "I'm not running for me.",
   headlineAccent: "I'm running for us.",
   subhead:
-    "I'm a refugee. I'm a father of six. I'm from this neighborhood. I'm running for Congress as an Independent because Florida deserves a representative who isn't owned by a party, isn't bankrolled by corporations, and isn't afraid to fight for the people who actually live here.",
-  emailCtaLabel: "Sign up for campaign updates — straight to your inbox.",
+    "Enough is enough. I came to America from the Soviet Union as a four-year-old refugee. I helped Donald Trump and Rudy Giuliani build MAGA — and I woke up. I served my time. Nobody knows how this system operates better than I do, and nobody will fight harder to expose it. I'm not backed by corporations. I'm not backed by PACs. I'm backed by you.",
+  emailCtaLabel: "Get on the list. Updates from me and the team — nothing else.",
   primaryCta: { href: "/donate", label: "Donate" },
   secondaryCta: { href: "/join", label: "Join us" },
 } as const;
@@ -192,17 +192,21 @@ export const announcement = {
   // Shown as a thin bar at the top of the site post-switch.
   // Set show to false to hide.
   show: true,
-  text: "Lev is now running as an Independent. Read his statement.",
+  text: "I woke up. I'm not running as a Democrat or a Republican. I'm running as an Independent.",
   href: "/story#independent",
 } as const;
 
 export const homeStoryTeaser = {
   eyebrow: "Meet Lev",
   headline:
-    "A refugee. A father. A neighbor. A fighter.",
-  body: `I was four years old when my family fled the Soviet Union. We came to America with nothing — Jewish refugees, scared, looking for a country that would take us in. America did. Brooklyn raised me. Florida built me. I've been a husband, a father of six, a businessman in this community for three decades.
+    "Refugee. Father of six. Witness. Fighter.",
+  body: `I came to America from the Soviet Union as a four-year-old refugee. America took my family in. Brooklyn raised me. Florida built me. I've been a husband, a father of six, a businessman in this community for three decades.
 
-I've stood in rooms where decisions about your life were being made by people who don't think about you. I've watched both parties protect their own while the families I grew up around got squeezed harder every year. I'm done watching. So I'm running as an Independent — for the people of Florida's 27th, for my family, for yours.`,
+Then I helped Donald Trump and Rudy Giuliani build MAGA. I broke the law inside that operation. I went to prison for it. I served my time.
+
+And I woke up.
+
+Nobody knows how this system operates better than I do. I've sat in the rooms. I've watched both parties protect their own while the families on this block get squeezed — groceries, rent, healthcare. I'm done watching. I'm running for the people of Florida's 27th. Enough is enough.`,
   cta: { href: "/story", label: "Read Lev's full story" },
 } as const;
 
@@ -210,43 +214,43 @@ export const issues = [
   {
     id: "affordability",
     eyebrow: "Affordability",
-    title: "Make South Florida livable again.",
+    title: "Florida 27 is being squeezed. Washington argues.",
     summary:
-      "Insurance, rent, groceries, gas — Miamians are being priced out of their own city while Washington argues. We need real action on housing supply, a federal backstop for hurricane-zone insurance, and an end to the corporate price-gouging in food and energy.",
+      "Families in our district are being squeezed from every direction — groceries, rent, healthcare, insurance. Hurricane-zone premiums on a Miami home have tripled in five years. Wages haven't moved. And while families on this block get pushed out, both parties argue about whose fault it is. I'm not interested in the argument. I'm interested in what we do about it.",
     detail: [
-      "Federal reinsurance backstop for Florida homeowners — premiums in some neighborhoods have tripled in five years.",
-      "Federal tax credits tied to multifamily housing supply in coastal cities.",
-      "Price-gouging investigations with real teeth against grocery and energy monopolies.",
-      "Cap prescription drug costs the way the IRA started — and finish the job.",
+      "Federal reinsurance backstop so a Miami family isn't paying triple for hurricane coverage.",
+      "Tax credits tied to housing supply. We build for the rich. We don't build for the rest of us.",
+      "Real teeth on price-gouging. Grocery chains and energy monopolies don't get to call record profits 'inflation'.",
+      "Finish what the Inflation Reduction Act started on prescription drug caps. Don't stop at insulin.",
     ],
     stat: { value: "3×", label: "Hurricane-zone insurance premium increase in five years" },
-    pullQuote: "If a Miami family can't afford to live in Miami, we don't have a community — we have a real estate market.",
+    pullQuote: "If a Miami family can't afford to live in Miami, we don't have a community. We have a real estate market.",
   },
   {
     id: "corruption",
-    eyebrow: "End the Legal Corruption",
-    title: "Stop members of Congress from getting rich off their jobs.",
+    eyebrow: "Drain the Swamp",
+    title: "I know this swamp from the inside. Now let's actually drain it.",
     summary:
-      "I watched this from the inside. The trading. The lobbying revolving door. The donations that come with strings the public never sees. Both parties do it. Both parties protect it. I'm running to end it.",
+      "I was in the rooms when the money moved. The stock trading. The lobbying revolving door. The donations with strings the public never sees. Trump's people do it. Democratic leadership does it too. I'm not interested in a side. I'm interested in ending it. Nobody knows how these people operate better than I do.",
     detail: [
-      "Ban members of Congress and senior officials from trading individual stocks.",
-      "Lifetime ban on members becoming lobbyists.",
-      "Mandatory disclosure — in plain English, within 24 hours — of any meeting between a member and a paid lobbyist.",
-      "Maximum age of 75 for federal office. These are jobs, not lifetime appointments.",
+      "Ban Congress and senior officials from trading individual stocks. Period.",
+      "Lifetime ban on members becoming lobbyists. Public service, not a stepping stone.",
+      "Within 24 hours of any meeting between a member and a paid lobbyist, the public sees who, what, and why.",
+      "Maximum age of 75 for federal office. These are jobs, not thrones.",
     ],
-    stat: { value: "$0", label: "Corporate, PAC, or party money I will accept in this campaign" },
+    stat: { value: "$0", label: "Corporate, PAC, or party money I will accept" },
     pullQuote: "I went to prison for breaking the rules. Then I came home and watched senators break the same rules in public and call it lawful. The rules are the problem.",
   },
   {
     id: "accountability",
     eyebrow: "Accountability",
-    title: "Make oversight work like it's supposed to.",
+    title: "The American people have been lied to. Here's how we fix it.",
     summary:
-      "I was a witness in the first Trump impeachment. I testified before the House Oversight Committee. I know what Congressional subpoena power can do — and what happens when it's abused or ignored. We need real consequences for officials who lie, obstruct, or abuse their offices.",
+      "I was a witness in the first Trump impeachment. I testified before the House Oversight Committee under oath, on camera. I watched lawmakers ask the questions they wanted asked and skip the ones they didn't. I watched officials lie to Congress and walk away. Speaking truth to power is one of the toughest things to do in this town. We can build a Congress that actually does it.",
     detail: [
-      "Empower inspectors general with statutory protection from political firing.",
-      "Mandatory referrals to DOJ when officials are found to have lied to Congress.",
-      "Public-facing accountability dashboard showing every open oversight investigation and its status.",
+      "Inspectors general get statutory protection from political firing. Nobody fires the people watching the watchers.",
+      "Lie under oath to Congress → mandatory DOJ referral. Currently it's a suggestion. Make it law.",
+      "Public dashboard of every open oversight investigation. People deserve to see what their representatives are actually working on.",
     ],
     stat: { value: "2×", label: "Times I've testified before Congress — once as a witness, once as a citizen" },
     pullQuote: "I've sat at that witness table. I know which questions get asked when the cameras are on and which ones get dropped when they're off. We can fix that.",
@@ -254,14 +258,14 @@ export const issues = [
   {
     id: "immigration",
     eyebrow: "Immigration",
-    title: "I am the system working. Most aren't so lucky.",
+    title: "I came here at four years old. America took my family in. We've forgotten how to do that.",
     summary:
-      "I came to this country as a four-year-old refugee. My family had nothing. America gave us a chance. We've forgotten how to do that — and we've forgotten how to enforce the law without cruelty. Both can be true.",
+      "Florida 27 is full of people who fled places — Cuba, Venezuela, Nicaragua, Haiti, the Soviet Union. So am I. Most of us know exactly what dictatorship and authoritarianism look like, and we know what we owe to the country that took us in. We need an immigration system that enforces the law without cruelty. Both can be true. The politicians who tell you otherwise are selling you something.",
     detail: [
-      "Triple the number of immigration judges to clear the backlog.",
-      "Permanent protection for Dreamers who have built lives here.",
-      "A real, secure, dignified asylum process — not detention camps.",
-      "Stop using immigration as a political football. Solve it.",
+      "Triple the number of immigration judges. The backlog is a policy choice, not an act of God.",
+      "Permanent legal status for Dreamers who have built lives here. They're not bargaining chips.",
+      "A real, secure, dignified asylum process. Not detention camps.",
+      "Stop using immigrants as props in political ads. Solve it.",
     ],
     stat: { value: "4", label: "Years old when my family fled the Soviet Union and America took us in" },
     pullQuote: "If America had treated my family the way Washington wants to treat asylum-seekers today, I would not exist as an American. Neither would millions of you.",
@@ -269,14 +273,14 @@ export const issues = [
   {
     id: "democracy",
     eyebrow: "Democracy",
-    title: "Stand up to authoritarians — including the ones at home.",
+    title: "I helped build MAGA. I know exactly what authoritarianism looks like.",
     summary:
-      "I watched Donald Trump operate up close. I watched what he tried to do to Ukraine. I watched what he tried to do here. The threat is real and it is bipartisan in target — democracy is not a Democratic or Republican issue, it is an American one.",
+      "I watched Donald Trump operate up close. I watched what he tried to do to Ukraine — the country my family came from. I watched what he tried to do here. Putin doesn't want peace. He wants submission. And too many people in Washington — on both sides — are willing to look away. Democracy is not a Democratic issue. It is not a Republican issue. It is an American one.",
     detail: [
-      "Codify protections for free and fair elections at the federal level.",
-      "Strengthen support for Ukraine and democratic allies — full stop.",
-      "End the gerrymandering that lets politicians pick their voters instead of the other way around.",
-      "Public financing options for federal campaigns so candidates don't have to spend half their time begging from donors.",
+      "Codify federal protections for free and fair elections. Don't leave it to whoever wins next.",
+      "Stand with Ukraine. Speak for Ukraine. The country we fled to should keep helping the country we left.",
+      "End partisan gerrymandering. Voters pick politicians, not the other way around.",
+      "Public financing options so candidates spend their time talking to voters, not donors.",
     ],
     stat: { value: "20", label: "Months I served for crimes that originated in someone else's authoritarian project" },
     pullQuote: "I went to prison because I was part of an effort to corrupt an American election. I know what the real thing looks like. I'm running to stop it before it happens again.",
@@ -315,25 +319,25 @@ export const story = {
   // Long-form narrative paragraphs. Edit freely.
   paragraphs: [
     {
-      heading: "I came here with nothing.",
-      body: `I was born in Odesa, Ukraine, in 1972. My family were Jewish refugees from the Soviet Union. I was four years old when we landed in Detroit, then moved to Brooklyn. I grew up in a one-bedroom apartment with my parents and my grandmother. I went to public school. I learned English on the playground. I owe everything I am to this country, and to the people who built the systems that let a refugee kid become someone.`,
+      heading: "I came here at four years old.",
+      body: `I was born in Odesa in 1972. My family were Jewish refugees from the Soviet Union. We knew what authoritarianism looked like — we had lived under it. America took us in. We landed in Detroit, then Brooklyn. One-bedroom apartment. Me, my parents, my grandmother. I learned English on the playground. I went to public school. I owe everything I am to this country and to the people who built the systems that let a refugee kid become someone.`,
     },
     {
       heading: "I built businesses. And I got close to power.",
-      body: `I started selling Trump-branded apartments in Brooklyn when I was barely out of college. I moved to Florida in the '90s. I built companies — some succeeded, some didn't. By 2018 I had a friend named Rudy Giuliani, and through him, proximity to the President of the United States. I won't pretend I didn't enjoy it. I should have asked harder questions about what I was being asked to do. I didn't.`,
+      body: `Out of college I was selling Trump-branded apartments in Brooklyn. I moved to South Florida in the '90s. I built companies. Some made it. Some didn't. By 2018 I had a friend named Rudy Giuliani, and through Rudy, proximity to the President of the United States. I'm not going to pretend I didn't enjoy it. I was in the rooms. I was in the loop. I helped build MAGA. I should have asked harder questions about what I was being asked to do. I didn't.`,
     },
     {
       heading: "I broke the law. I'm not going to pretend otherwise.",
-      body: `In October 2019 I was arrested at Dulles airport. The charges were real. A federal jury convicted me in 2021 on six counts including campaign finance violations and false statements. I was sentenced to twenty months in federal prison and ordered to pay $2.3 million in restitution. I served my time. I came home in 2023. I will not stand here and tell you I was framed, because I wasn't. I broke the rules. I paid for it. And I learned more about how Washington really works than any briefing book could have taught me.`,
+      body: `In October 2019 I was arrested at Dulles. The charges were real. A federal jury convicted me in 2021 on six counts — campaign finance violations and false statements. Twenty months in federal prison. $2.3 million in restitution. I served my time. I came home in 2023. I'm not going to stand here and tell you I was framed, because I wasn't. I broke the rules. I paid for it. I almost lost my family. I almost lost my kids, my wife. And I learned more about how Washington really works than any briefing book could have taught me.`,
     },
     {
       id: "independent",
-      heading: "I told the truth — and I'm done with both parties.",
-      body: `When prosecutors came for me, the Trump people abandoned me. When I started telling the truth — about the pressure on Ukraine, about what the President knew, about Rudy and Barr and Pence and the whole operation — I expected the other side to want accountability. Some did. Many didn't. What I learned is that both parties protect their own first. They are far more loyal to each other than they are to you. I tried to fix this from inside the Democratic Party. I'm done. I'm running as an Independent — because the work is the work, and it can't get done by either side alone.`,
+      heading: "I woke up. And I'm done with both parties.",
+      body: `When the prosecutors came for me, Trump's people abandoned me. When I started telling the truth — to Rachel Maddow, to the House, on the record — I expected the other side to want accountability. Some did. Many didn't. Both parties protect their own first. They are more loyal to each other than they are to you. I tried to do this work inside the Democratic Party. I'm done. I'm running as an Independent because I'm not a politician. I don't have loyalty to any real hardcore party. I'm not backed by corporations. I'm not backed by PACs. I'm backed by you.`,
     },
     {
       heading: "Why Congress. Why now.",
-      body: `Florida's 27th District deserves a representative who isn't owned by a party or by a donor class. I have no PAC. I have no party machine. I have no future political career to protect — I just have what I learned, and I want to use it. If you're tired of being represented by people who'd rather perform for cable news than do their job, I'm asking for your vote. And before that, I'm asking for your help getting on the November ballot.`,
+      body: `Florida's 27th deserves a representative who isn't owned by a party or by a donor class. I have no PAC. I have no party machine. I have no future political career to protect — I just have what I learned, and I want to use it. Nobody knows how these people operate better than I do, and nobody will fight harder to expose them. If you're tired of being represented by people who'd rather perform for cable news than do the job, I'm asking for your vote. And before that, I'm asking for your help getting me on the November ballot.`,
     },
   ],
   timeline: [
@@ -379,8 +383,8 @@ export const story = {
 
 export const joinSection = {
   eyebrow: "Get Involved",
-  headline: "This campaign runs on people, not party machines.",
-  body: `We have no DNC, no RNC, no super PAC. We have you. If you can give five minutes or five hours, the campaign needs both.`,
+  headline: "We are not just a community. We are a movement.",
+  body: `No DNC. No RNC. No super PAC. No corporate money. Just you. If you can give five minutes or five hours, this campaign needs both. Together, we can take our country back.`,
 
   // What members of the email list actually get
   benefits: [
@@ -461,8 +465,8 @@ export const joinSection = {
 
 export const donateCopy = {
   eyebrow: "Donate",
-  headline: "Help get Lev on the ballot.",
-  subhead: `Independent candidates don't get a party to pay their filing fees, hire their staff, or buy their ads. Every dollar you give goes directly to getting Lev's name in front of voters in Florida's 27th.`,
+  headline: "I'm not backed by corporations. I'm backed by you.",
+  subhead: `Independent candidates don't get a party to pay their filing fees, hire their staff, or buy their ads. Every dollar you give goes straight to fighting for Florida's 27th. No PAC. No corporate check. No strings. Just neighbors funding neighbors.`,
   amounts: [10, 25, 50, 100, 250, 500] as number[],
   defaultAmount: 50,
   defaultRecurring: false,
@@ -524,7 +528,15 @@ export const donateBreakdown = [
 
 // Letter from Lev that appears on the donate page.
 export const donateLetter = {
-  body: `If you're reading this, the campaign is asking for your help — and I'm asking too. I'm not running with party money, corporate money, or PAC money. The whole point is that I won't owe anyone but the people who got me elected. That means I need you. Five dollars from a thousand neighbors will do more than one big check from a donor with strings attached. Whatever you can give, give it. And if you can't right now, sign up for the email list and forward this to a friend who can. Thank you for standing with me.`,
+  body: `I'm not running on party money. I'm not running on corporate money. I'm not running on PAC money. The whole point of this campaign is that I won't owe anyone but the people who got me elected.
+
+That means I need you.
+
+Five dollars from a thousand neighbors will do more than one big check from a donor with strings attached. Five dollars buys a yard sign. Twenty-five pays for digital ads to a hundred voters in our district. Fifty knocks on doors that political pros say aren't worth knocking — and we knock them anyway.
+
+If you can give, give it. If you can't right now, get on the email list and send this page to a friend in Florida 27 who can.
+
+Enough is enough. Thank you for standing with me.`,
   signoff: "Lev Parnas",
 } as const;
 
@@ -554,7 +566,7 @@ export const donorVoices = [
 export const press = {
   eyebrow: "Press",
   headline: "On the record.",
-  intro: "Every link below is to a verifiable, primary-source story about Lev. Read them. Watch them. Decide for yourself.",
+  intro: "Everything I've said about Trump, Giuliani, the cult, the cover-up — it's all on the record. Read every link. Watch every clip. Then decide for yourself who's telling you the truth.",
 
   // FEATURED — the documentary
   featured: {

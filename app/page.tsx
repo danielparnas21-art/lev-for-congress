@@ -210,14 +210,14 @@ export default function HomePage() {
             <StarDivider className="mb-10" />
             <p className="eyebrow-gold">From Lev, personally</p>
             <h2 className="display text-3xl md:text-5xl text-[var(--color-navy)] mt-6 text-balance leading-[1.05]">
-              I love this country.
+              I almost lost my family.
               <br />
               <span className="font-extrabold">
-                It's time we ran one <HighlightedPhrase text="like it again." delay={0.4} />
+                I'm running so <HighlightedPhrase text="yours doesn't." delay={0.4} />
               </span>
             </h2>
             <p className="mt-8 text-lg md:text-xl leading-relaxed text-[var(--color-ink)]/90 max-w-2xl mx-auto">
-              My family came here with nothing. America gave us a future. Now I have six children of my own and a district full of neighbors I love, and I want every one of them to have the chance my parents fought to give me. Every word on this site is mine. Every position is something I will fight for. I am asking for your help to do it.
+              My family came to America with nothing. America gave us a future. I have six kids of my own and a district full of neighbors I love. I want every one of them to have the chance my parents fought to give me. Every word on this site is mine. Every position is something I will fight for. I am asking for your help to do it.
             </p>
             <div className="mt-12 flex justify-center">
               <Signature text="Lev Parnas" caption="Independent Candidate, Florida 27" />
@@ -247,7 +247,7 @@ export default function HomePage() {
               {pullQuotes[0].source}
             </p>
             <p className="mt-8 text-base md:text-lg leading-relaxed text-[var(--color-ink)]/85">
-              Lev has spent the last five years telling the truth about Washington — under oath, on television, and in the country's newspapers. He's running so that truth can finally do some good.
+              I've spent five years telling the truth about Washington — under oath, on television, in the country's newspapers. Now it's time to take that fight directly where it belongs. To Congress.
             </p>
           </FadeUp>
         </div>
@@ -268,7 +268,7 @@ export default function HomePage() {
               Five fights I'm taking to <HighlightedPhrase text="Washington." delay={0.3} />
             </h2>
             <p className="mt-5 text-lg text-[var(--color-ink)]/80 max-w-prose">
-              No focus-grouped platitudes. No 27-point plans. Five things, in plain English, that I will not stop pushing for.
+              No 27-point plans. No focus-grouped platitudes. Five fights, in plain English, that I will not stop pushing for. You can hold me to every one of them.
             </p>
           </div>
         </FadeUp>
@@ -302,7 +302,7 @@ export default function HomePage() {
               The system isn't <span className="text-[var(--color-crimson)]">broken</span>.
             </p>
             <p className="mt-4 text-[var(--color-cream-200)]">
-              It's working exactly as the people who built it intended. We're going to change who builds it.
+              It's working exactly as the people who built it intended. I was in those rooms. We're going to change who's in them.
             </p>
           </div>
         </div>
@@ -317,12 +317,12 @@ export default function HomePage() {
 
         <div className="container-page py-20 md:py-28 grid md:grid-cols-[1.2fr_1fr] gap-12 items-center relative">
           <FadeUp>
-            <Stamp text="Help him help us" color="gold" className="mb-6" />
+            <Stamp text="I'm backed by you" color="gold" className="mb-6" />
             <h2 className="display text-5xl md:text-7xl mt-2 text-balance leading-[0.95]">
-              Independent campaigns run on <HighlightedPhrase text="you." delay={0.3} />
+              No corporations. No PACs. <HighlightedPhrase text="Just you." delay={0.3} />
             </h2>
             <p className="mt-6 text-lg text-[var(--color-cream-200)] max-w-prose">
-              No PAC. No party committee. No corporate check. Every dollar comes from people like you — capped at $3,500 by law, $5 is plenty, and recurring monthly is what keeps us alive.
+              I'm not backed by corporations. I'm not backed by PACs. I'm backed by you. Every dollar comes from neighbors — capped at $3,500 by law, $5 is plenty, recurring monthly is what keeps us alive. That's the whole point.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <Link href="/donate" className="btn-primary">Donate now</Link>
@@ -332,12 +332,12 @@ export default function HomePage() {
 
           <FadeUp delay={0.15}>
             <div className="border-2 border-[var(--color-gold-dark)] bg-[var(--color-navy-700)]/40 p-7 md:p-9 backdrop-blur-sm">
-              <p className="eyebrow !text-[var(--color-gold)]">One more ask</p>
+              <p className="eyebrow !text-[var(--color-gold)]">If you believe</p>
               <p className="headline text-2xl md:text-3xl mt-3">
-                If you only do one thing, do this one.
+                Then stand with me.
               </p>
               <p className="mt-4 text-[var(--color-cream-200)] text-sm">
-                Sign up for Lev's email list. Cheapest, easiest, most important.
+                If you believe in accountability. If you believe our government should serve the people. If you believe it's time to say enough is enough — get on the list.
               </p>
               <div className="mt-6">
                 <HeroEmailForm />
