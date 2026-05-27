@@ -7,7 +7,7 @@ import { PosterHeadline } from "@/components/highlighted-headline";
 export const metadata = {
   title: "Where I Stand",
   description:
-    "Five fights I'm taking to Washington. In plain English, with the stats and the receipts.",
+    "Six fights I'm taking to Washington. In plain English, with the stats and the receipts.",
 };
 
 function statNumeric(raw: string): { num: number; suffix: string; prefix: string } {
@@ -30,7 +30,7 @@ export default function PlatformPage() {
             <p className="eyebrow !mb-0">Where I Stand</p>
           </div>
           <PosterHeadline
-            lead="Five fights I'm taking"
+            lead="Six fights I'm taking"
             accentPre="to"
             highlight="Washington."
             className="mt-5 max-w-5xl"

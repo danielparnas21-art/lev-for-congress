@@ -285,6 +285,22 @@ export const issues = [
     stat: { value: "20", label: "Months I served for crimes that originated in someone else's authoritarian project" },
     pullQuote: "I went to prison because I was part of an effort to corrupt an American election. I know what the real thing looks like. I'm running to stop it before it happens again.",
   },
+  {
+    id: "epstein-survivors",
+    eyebrow: "Epstein survivors",
+    title: "I stood in the room with them. I'm not stopping.",
+    summary:
+      "I sat in the field hearing in West Palm Beach — minutes from this district, the scene of the crime — and listened to Maria Farmer, Dani Bensky, Courtney Wild, Jena-Lisa Jones, and Virginia Giuffre's brothers Sky and Daniel. I traveled to New York for the 24-hour reading of the Epstein files. I delivered new material directly to Congress. The Epstein class — the people in powerful seats on both sides of the aisle — has every reason to keep that file half-redacted forever. They're going to find out what one congressman who actually shows up looks like.",
+    detail: [
+      "Full, unredacted release of the Epstein files. Survivor identities protected by survivors' consent — Roza Bensky was doxed 540 times in the DOJ release. That doesn't happen if survivors are in the room.",
+      "Aggressive use of congressional subpoena power on every named Epstein-network figure. My petition asking Congress to subpoena 12 of them — including Bill Gates, Steve Bannon, Prince Andrew, Elon Musk, Alex Acosta — has over 47,000 signatures. The list has been public for years. The political will to act on it has not.",
+      "Trafficked minors do not get prosecuted for prostitution. Period. A 14-year-old survivor from across the bridge from Mar-a-Lago was threatened with charges. That part I cannot get past.",
+      "Survivor-led decisions on what accountability looks like. They lived it. They get a seat at the table — not after the press release, before it.",
+      "Bipartisan accountability for the entire Epstein circle. The cover-up has been bipartisan. The accountability has to be too.",
+    ],
+    stat: { value: "47K+", label: "Signatures on my petition demanding Congress subpoena the Epstein network" },
+    pullQuote: "We are not forgetting. We are not backing down. And we are going to keep shining a light until every survivor is heard, every name is exposed, and every person who protected this system is held accountable.",
+  },
 ] as const;
 
 export const pullQuotes = [
@@ -336,6 +352,10 @@ export const story = {
       body: `When the prosecutors came for me, Trump's people abandoned me. When I started telling the truth — to Rachel Maddow, to the House, on the record — I expected the other side to want accountability. Some did. Many didn't. Both parties protect their own first. They are more loyal to each other than they are to you. I tried to do this work inside the Democratic Party. I'm done. I'm running as an Independent because I'm not a politician. I don't have loyalty to any real hardcore party. I'm not backed by corporations. I'm not backed by PACs. I'm backed by you.`,
     },
     {
+      heading: "I started showing up.",
+      body: `When I came home, I made a promise to myself. The next time the powerful were getting away with something, I wasn't going to be on the wrong side of it. I built a Substack. I built a daily livestream. I built a community I call the Wolfpack. We started doing the work the press wouldn't do — covering the Epstein files release, interviewing whistleblowers, delivering material directly to Congress. I sat in the House Oversight field hearing in West Palm Beach — twenty minutes from this district — and listened to Maria Farmer, Dani Bensky, Roza, Courtney Wild, Jena-Lisa Jones, and the brothers of Virginia Roberts Giuffre testify. I went to New York for the 24-hour reading of the 3.5 million pages. We are not going to let them use these survivors when it is politically useful and abandon them when it is time to stand. That's a promise.`,
+    },
+    {
       heading: "Why Congress. Why now.",
       body: `Florida's 27th deserves a representative who isn't owned by a party or by a donor class. I have no PAC. I have no party machine. I have no future political career to protect — I just have what I learned, and I want to use it. Nobody knows how these people operate better than I do, and nobody will fight harder to expose them. If you're tired of being represented by people who'd rather perform for cable news than do the job, I'm asking for your vote. And before that, I'm asking for your help getting me on the November ballot.`,
     },
@@ -374,6 +394,14 @@ export const story = {
     },
     { year: "2024", text: "Publishes Shadow Diplomacy with co-author Jerry Langton." },
     { year: "Mar 2026", text: "Files to run for Florida's 27th Congressional District." },
+    {
+      year: "Apr 2026",
+      text: "Stands with Virginia Roberts Giuffre's brothers in DC after her death. Begins escalating Epstein-files advocacy.",
+    },
+    {
+      year: "May 2026",
+      text: "Attends House Oversight field hearing in West Palm Beach with Epstein survivors. Travels to New York for the 24-hour reading of 3.5 million pages.",
+    },
     {
       year: "May 2026",
       text: "Switches to Independent. Goes direct to the November general election.",

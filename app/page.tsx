@@ -265,10 +265,10 @@ export default function HomePage() {
               <p className="eyebrow !mb-0">Where I Stand</p>
             </div>
             <h2 className="display text-5xl md:text-6xl lg:text-7xl text-[var(--color-navy)] mt-4 text-balance leading-[0.95]">
-              Five fights I'm taking to <HighlightedPhrase text="Washington." delay={0.3} />
+              Six fights I'm taking to <HighlightedPhrase text="Washington." delay={0.3} />
             </h2>
             <p className="mt-5 text-lg text-[var(--color-ink)]/80 max-w-prose">
-              No 27-point plans. No focus-grouped platitudes. Five fights, in plain English, that I will not stop pushing for. You can hold me to every one of them.
+              No 27-point plans. No focus-grouped platitudes. Six fights, in plain English, that I will not stop pushing for. You can hold me to every one of them.
             </p>
           </div>
         </FadeUp>

@@ -29,6 +29,14 @@ const MOMENTS = [
     span: "",
   },
   {
+    label: "May 2026",
+    title: "West Palm Beach. With the survivors.",
+    body: "Sat in the House Oversight field hearing with Maria Farmer, Sky Roberts, and the survivors of Jeffrey Epstein. The scene of the crime.",
+    url: "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-oversight-democrats-florida-democrats-hold-hearing-on-epstein-investigation-in-palm-beach-florida",
+    span: "",
+    pattern: "survivors",
+  },
+  {
     label: "2024",
     title: "Shadow Diplomacy",
     body: "Lev's memoir. Brooklyn to Trump's inner circle, in his own words.",
@@ -78,6 +86,16 @@ export function MomentsGrid() {
               <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-navy)] via-[var(--color-navy-700)] to-[var(--color-crimson-700)]">
                 <div className="absolute inset-0 flex items-center justify-center opacity-30">
                   <span className="display text-[10rem] text-[var(--color-cream)]">L</span>
+                </div>
+              </div>
+            )}
+
+            {"pattern" in m && m.pattern === "survivors" && (
+              <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-crimson-800)] via-[var(--color-navy)] to-[var(--color-navy-950)]">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <svg viewBox="0 0 200 60" className="w-3/4 opacity-25 text-[var(--color-cream)]" fill="currentColor" aria-hidden>
+                    <text x="100" y="42" textAnchor="middle" className="display" fontFamily="Georgia, serif" fontSize="32" fontStyle="italic" fontWeight="700">SURVIVORS</text>
+                  </svg>
                 </div>
               </div>
             )}
