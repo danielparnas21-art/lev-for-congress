@@ -17,7 +17,6 @@ import { HeroCollage } from "@/components/hero-collage";
 import { HeroBackground } from "@/components/hero-background";
 import { HeroVideo } from "@/components/hero-video";
 import { QuickDonateRow } from "@/components/quick-donate-row";
-import { LatestPosts } from "@/components/latest-posts";
 import { ScribbleUnderline, SparkleAccent } from "@/components/scribble-underline";
 import { HighlightedFor, HighlightedPhrase } from "@/components/highlighted-headline";
 import { LiveSupporterCount } from "@/components/live-supporter-count";
@@ -256,9 +255,6 @@ export default function HomePage() {
 
       {/* MOMENTS GRID */}
       <MomentsGrid />
-
-      {/* LATEST FROM LEV'S SUBSTACK */}
-      <LatestPosts limit={3} />
 
       {/* ISSUES */}
       <section className="container-page py-20 md:py-28 relative">

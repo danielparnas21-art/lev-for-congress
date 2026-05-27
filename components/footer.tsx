@@ -48,16 +48,6 @@ export function SiteFooter() {
                   Press Kit
                 </Link>
               </li>
-              <li>
-                <a
-                  href="https://levremembers.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-underline text-[var(--color-cream)]"
-                >
-                  Lev Remembers Shop ↗
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -71,7 +61,6 @@ export function SiteFooter() {
               <li><a href={site.social.youtube} className="link-underline">YouTube</a></li>
               <li><a href={site.social.tiktok} className="link-underline">TikTok</a></li>
               <li><a href={site.social.bluesky} className="link-underline">Bluesky</a></li>
-              <li><a href={site.social.substack} className="link-underline">Substack</a></li>
             </ul>
           </div>
 

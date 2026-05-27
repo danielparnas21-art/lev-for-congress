@@ -23,7 +23,6 @@ export const site = {
     tiktok: "https://tiktok.com/@levparnas",
     bluesky: "https://bsky.app/profile/levparnas.bsky.social",
     threads: "https://threads.net/@levparnas",
-    substack: "https://levremembers.substack.com",
   },
   contact: {
     email: "info@levparnas.org", // TODO: confirm
@@ -35,7 +34,6 @@ export const nav = {
   links: [
     { href: "/story", label: "Story" },
     { href: "/platform", label: "Platform" },
-    { href: "/writings", label: "Writings" },
     { href: "/events", label: "Events" },
     { href: "/press", label: "Press" },
     { href: "/join", label: "Join" },
@@ -764,47 +762,17 @@ export const press = {
     },
   ],
 
-  // The book + Substack
+  // The book. Available externally — campaign doesn't sell it.
   book: {
     title: "Shadow Diplomacy",
     subtitle: "Lev Parnas' Wild Ride from Brooklyn to Donald Trump's Inner Circle",
     coAuthor: "with Jerry Langton",
     year: 2024,
-    url: "https://levremembers.com",
-  },
-  substack: {
-    title: "Lev Remembers",
-    description:
-      "Lev writes his own newsletter — reporting, reflections, and the receipts. New posts most weeks.",
-    url: "https://levremembers.substack.com",
+    url: "", // External book retailer — TBD. Empty hides the buy button.
   },
   pressContact: {
     email: "press@levparnas.org",
     label: "Press inquiries",
     note: "For interviews, statements, scheduling, or fact-checks, write the press team directly.",
-  },
-} as const;
-
-// Lev's personal apparel + book site. Pre-existing, separate from the
-// campaign. A portion of sales supports Ukraine — NOT the campaign.
-// Keep the FEC line distinct on every callout.
-export const merch = {
-  url: "https://levremembers.com",
-  brand: "Lev Remembers Shop",
-  tagline: "Apparel, books, and the receipts.",
-  description:
-    "Lev's personal shop — apparel, the book, and curated collections. A portion of every sale goes to support Ukraine. This is not campaign merchandise and not campaign fundraising.",
-  ukraineNote: "A portion of all sales supports Ukraine relief.",
-  fecNote: "Sales support Ukraine relief, not the campaign committee.",
-  collections: [
-    { name: "Enough Is Enough", id: "enough-is-enough" },
-    { name: "Voice From Ukraine", id: "voice-from-ukraine" },
-    { name: "Lev Remembers Tees", id: "lev-remembers" },
-    { name: "Wolfpack", id: "wolfpack" },
-  ],
-  featured: {
-    title: "Shadow Diplomacy",
-    subtitle: "The book.",
-    price: "$39.99",
   },
 } as const;

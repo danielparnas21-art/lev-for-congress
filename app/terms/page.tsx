@@ -57,40 +57,35 @@ export default function TermsPage() {
 
       <h2>5. Third-party links and content</h2>
       <p>
-        The Site links to third-party websites and embeds third-party content (e.g., YouTube videos, MSNBC documentary trailer, the Lev Remembers Shop). The Campaign is not responsible for the content, terms, or privacy practices of those third parties.
+        The Site links to third-party websites and embeds third-party content (e.g., YouTube videos, the MSNBC documentary trailer, third-party book retailers). The Campaign is not responsible for the content, terms, or privacy practices of those third parties.
       </p>
 
-      <h2>6. Lev Remembers Shop (separate entity)</h2>
-      <p>
-        <strong>levremembers.com is Lev Parnas's personal apparel and book site.</strong> It is operated separately from the Campaign. Sales on that site support Ukraine relief, <em>not the Campaign committee</em>. Purchases made at levremembers.com are not contributions to the Campaign and are not subject to federal campaign finance laws.
-      </p>
-
-      <h2>7. Disclaimers</h2>
+      <h2>6. Disclaimers</h2>
       <p>
         The Site is provided <q>as is</q>. The Campaign makes no warranties — express or implied — regarding the accuracy, completeness, reliability, or availability of the Site. Information on the Site is for informational and educational purposes and does not constitute legal, financial, or tax advice.
       </p>
 
-      <h2>8. Limitation of liability</h2>
+      <h2>7. Limitation of liability</h2>
       <p>
         To the maximum extent permitted by law, the Campaign and its volunteers, vendors, and affiliates are not liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the Site, even if advised of the possibility of such damages.
       </p>
 
-      <h2>9. Indemnification</h2>
+      <h2>8. Indemnification</h2>
       <p>
         You agree to indemnify and hold harmless the Campaign, its officers, volunteers, vendors, and affiliates from any claim, loss, or expense (including reasonable attorneys' fees) arising out of your violation of these Terms or your misuse of the Site.
       </p>
 
-      <h2>10. Governing law</h2>
+      <h2>9. Governing law</h2>
       <p>
         These Terms are governed by the laws of the <strong>State of Florida</strong>, without regard to its conflict-of-laws principles, and by applicable federal election law. Any dispute will be resolved exclusively in the state or federal courts located in Miami-Dade County, Florida.
       </p>
 
-      <h2>11. Changes</h2>
+      <h2>10. Changes</h2>
       <p>
         The Campaign may update these Terms from time to time. Material changes will be reflected in the "Last updated" date above and, where appropriate, highlighted on this page.
       </p>
 
-      <h2 id="sms">12. SMS / text-message terms</h2>
+      <h2 id="sms">11. SMS / text-message terms</h2>
       <p>
         If you provide a mobile phone number and consent to receive text messages from the Campaign, the following terms apply:
       </p>
@@ -119,7 +114,7 @@ export default function TermsPage() {
         </li>
       </ul>
 
-      <h2>13. Contact</h2>
+      <h2>12. Contact</h2>
       <p>
         Questions about these Terms can be sent to{" "}
         <a href="mailto:info@levparnas.org">info@levparnas.org</a>.

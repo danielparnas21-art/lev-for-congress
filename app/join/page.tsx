@@ -6,7 +6,6 @@ import { FadeUp, Counter } from "@/components/anim";
 import { PatrioticStripe, StarDivider, Star, Stamp, Watermark } from "@/components/decor";
 import { ShareRow } from "@/components/share-row";
 import { VoterCheck } from "@/components/voter-check";
-import { SubstackSubscribe } from "@/components/substack-subscribe";
 import { PosterHeadline } from "@/components/highlighted-headline";
 
 export const metadata = {
@@ -265,26 +264,6 @@ export default function JoinPage() {
           </div>
         </div>
       </section>
-
-      {/* SUBSTACK */}
-      <section className="container-page py-16 md:py-24 grid lg:grid-cols-[1fr_1.1fr] gap-12 lg:gap-20">
-        <FadeUp>
-          <div>
-            <p className="eyebrow-gold">Bonus &middot; Lev's newsletter</p>
-            <h2 className="display text-3xl md:text-5xl mt-3 text-[var(--color-navy)] text-balance">
-              Subscribe to <span className="text-[var(--color-crimson)] italic">Lev Remembers</span>.
-            </h2>
-            <p className="mt-5 text-lg text-[var(--color-ink)]/85 leading-relaxed max-w-prose">
-              The campaign list keeps you up to date on events, deadlines, and asks. The Substack is the longer-form, less filtered companion — Lev's own writing, on his own schedule. Smart move: subscribe to both.
-            </p>
-          </div>
-        </FadeUp>
-        <FadeUp delay={0.15}>
-          <SubstackSubscribe />
-        </FadeUp>
-      </section>
-
-      <div className="rule container-page" />
 
       {/* VOTER CHECK */}
       <section className="container-page py-16 md:py-24">

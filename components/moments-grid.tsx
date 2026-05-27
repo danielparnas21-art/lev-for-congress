@@ -31,18 +31,10 @@ const MOMENTS = [
   {
     label: "2024",
     title: "Shadow Diplomacy",
-    body: "The book. Brooklyn to Trump's inner circle, in his own words. Available at the Lev Remembers shop.",
-    url: "https://levremembers.com",
+    body: "Lev's memoir. Brooklyn to Trump's inner circle, in his own words.",
+    url: "#",
     span: "",
     pattern: "book",
-  },
-  {
-    label: "Ongoing",
-    title: "Lev Remembers",
-    body: "Substack newsletter. Reporting, reflections, receipts.",
-    url: "https://levremembers.substack.com",
-    span: "",
-    pattern: "substack",
   },
 ] as const;
 
@@ -86,14 +78,6 @@ export function MomentsGrid() {
               <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-navy)] via-[var(--color-navy-700)] to-[var(--color-crimson-700)]">
                 <div className="absolute inset-0 flex items-center justify-center opacity-30">
                   <span className="display text-[10rem] text-[var(--color-cream)]">L</span>
-                </div>
-              </div>
-            )}
-
-            {"pattern" in m && m.pattern === "substack" && (
-              <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-crimson-700)] to-[var(--color-navy)]">
-                <div className="absolute inset-0 flex items-center justify-center opacity-30">
-                  <span className="display text-[10rem] text-[var(--color-cream)]">&para;</span>
                 </div>
               </div>
             )}

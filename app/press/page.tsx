@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { press, pullQuotes, merch } from "@/lib/content";
+import { press, pullQuotes } from "@/lib/content";
 import { FadeUp } from "@/components/anim";
 import { PatrioticStripe, StarDivider, Star, Stamp, Watermark } from "@/components/decor";
 import { VideoEmbed } from "@/components/video-embed";
@@ -240,9 +240,8 @@ export default function PressPage() {
 
       <div className="rule container-page" />
 
-      {/* BOOK + SUBSTACK */}
-      <section className="container-page py-16 md:py-24 grid md:grid-cols-2 gap-10 md:gap-12">
-        {/* Book */}
+      {/* BOOK */}
+      <section className="container-page py-16 md:py-24 max-w-3xl">
         <FadeUp>
           <div className="flex gap-6 h-full">
             <div className="aspect-[2/3] w-32 sm:w-40 shrink-0 bg-gradient-to-br from-[var(--color-navy)] via-[var(--color-navy-700)] to-[var(--color-crimson-700)] relative shadow-2xl overflow-hidden">
@@ -274,124 +273,20 @@ export default function PressPage() {
                 {press.book.coAuthor} &middot; {press.book.year}
               </p>
               {press.book.url ? (
-                <>
-                  <a
-                    href={press.book.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn-primary mt-6"
-                  >
-                    Buy at Lev Remembers
-                  </a>
-                  <p className="mt-3 text-xs text-[var(--color-muted)] max-w-xs">
-                    Sold via Lev's personal shop. A portion of sales supports Ukraine — not the campaign.
-                  </p>
-                </>
+                <a
+                  href={press.book.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-primary mt-6"
+                >
+                  Buy the book
+                </a>
               ) : (
                 <p className="mt-6 text-xs italic text-[var(--color-muted)]">
-                  Purchase link coming soon.
+                  Available at major book retailers.
                 </p>
               )}
             </div>
-          </div>
-        </FadeUp>
-
-        {/* Substack */}
-        <FadeUp delay={0.1}>
-          <a
-            href={press.substack.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group flex gap-6 h-full hover:bg-white transition-colors p-1 -m-1"
-          >
-            <div className="aspect-square w-32 sm:w-40 shrink-0 bg-gradient-to-br from-[var(--color-crimson-700)] via-[var(--color-crimson)] to-[var(--color-gold-dark)] relative overflow-hidden">
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-[var(--color-cream)]">
-                <span className="display text-6xl">&para;</span>
-                <span className="mt-3 text-[10px] uppercase tracking-widest font-bold">Substack</span>
-              </div>
-            </div>
-            <div className="flex-1">
-              <Stamp text="Newsletter" color="crimson" className="mb-4" />
-              <h3 className="display text-2xl md:text-3xl text-[var(--color-navy)] text-balance">
-                {press.substack.title}
-              </h3>
-              <p className="text-sm md:text-base mt-3 text-[var(--color-ink)]/85 leading-relaxed">
-                {press.substack.description}
-              </p>
-              <span className="mt-6 inline-flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-[var(--color-crimson)] group-hover:gap-3 transition-all">
-                Read at levremembers.substack.com &rarr;
-              </span>
-            </div>
-          </a>
-        </FadeUp>
-      </section>
-
-      <div className="rule container-page" />
-
-      {/* MERCH — Lev Remembers shop, separate from the campaign */}
-      <section className="container-page py-16 md:py-24">
-        <FadeUp>
-          <div className="grid lg:grid-cols-[1fr_2fr] gap-10 lg:gap-16 mb-10 md:mb-14">
-            <div>
-              <Stamp text="Lev's shop" color="crimson" className="mb-6" />
-              <p className="eyebrow-gold !mb-0">Apparel &middot; Books &middot; Receipts</p>
-              <h2 className="display text-3xl md:text-5xl text-[var(--color-navy)] mt-2 text-balance leading-tight">
-                {merch.brand}.
-              </h2>
-            </div>
-            <div className="lg:pt-12">
-              <p className="text-base md:text-lg text-[var(--color-ink)]/85 leading-relaxed max-w-prose">
-                {merch.description}
-              </p>
-            </div>
-          </div>
-        </FadeUp>
-
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-[var(--color-line)] border-2 border-[var(--color-line)]">
-          {merch.collections.map((c, i) => (
-            <FadeUp key={c.id} delay={i * 0.08} className="contents">
-              <a
-                href={`${merch.url}/collections/${c.id}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group bg-[var(--color-cream)] p-6 md:p-7 hover:bg-white transition-colors flex flex-col aspect-[4/5] relative overflow-hidden"
-              >
-                {/* Gradient placeholder — until we can pull real product imagery */}
-                <div className="absolute inset-x-0 top-0 h-2/3 bg-gradient-to-br from-[var(--color-navy)] via-[var(--color-navy-700)] to-[var(--color-crimson-800)] flex items-center justify-center">
-                  <span className="display text-[3.5rem] sm:text-[4.5rem] text-[var(--color-cream)]/15 uppercase tracking-tight whitespace-nowrap">
-                    {c.name.split(" ")[0]}
-                  </span>
-                </div>
-                <div className="relative mt-auto pt-3">
-                  <p className="text-[10px] uppercase tracking-[0.18em] font-bold text-[var(--color-crimson)]">
-                    Collection
-                  </p>
-                  <h3 className="headline text-lg md:text-xl text-[var(--color-navy)] text-balance mt-1">
-                    {c.name}
-                  </h3>
-                  <span className="mt-3 inline-flex items-center gap-1 text-xs font-bold uppercase tracking-wider text-[var(--color-crimson)] group-hover:gap-2 transition-all">
-                    Shop &rarr;
-                  </span>
-                </div>
-              </a>
-            </FadeUp>
-          ))}
-        </div>
-
-        <FadeUp>
-          <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
-            <a
-              href={merch.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary"
-            >
-              Visit {merch.brand} &rarr;
-            </a>
-            <p className="text-xs text-[var(--color-muted)] max-w-md leading-relaxed">
-              <span className="font-bold text-[var(--color-navy)]">Heads up:</span>{" "}
-              {merch.fecNote}
-            </p>
           </div>
         </FadeUp>
       </section>
