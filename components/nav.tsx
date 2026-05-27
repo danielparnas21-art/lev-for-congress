@@ -28,7 +28,7 @@ export function SiteNav() {
             alt="Lev Parnas"
             className="h-9 md:h-12 w-auto"
           />
-          <span className="hidden sm:inline text-[10px] md:text-xs tracking-[0.18em] uppercase text-[var(--color-muted)] border-l border-[var(--color-line)] pl-3">
+          <span className="inline text-[9px] sm:text-[10px] md:text-xs tracking-[0.16em] sm:tracking-[0.18em] uppercase text-[var(--color-muted)] sm:border-l sm:border-[var(--color-line)] pl-2 sm:pl-3 whitespace-nowrap">
             Independent &middot; FL-27
             <span className="hidden lg:inline"> &middot; 2026</span>
           </span>
