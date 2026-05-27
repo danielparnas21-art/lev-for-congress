@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { donateCopy } from "@/lib/content";
 import { DonateForm } from "@/components/donate-form";
 import { FadeUp } from "@/components/anim";
@@ -9,6 +10,13 @@ export const metadata = {
   description:
     "Help get Lev on the November ballot. Federally compliant contributions, processed securely.",
 };
+
+// /donate is server-side redirected to the Squarespace donate page via
+// next.config.ts during the Squarespace→Anedot transition, so this body
+// is effectively unused for now. We still need it to build cleanly. The
+// DonateForm reads ?amount= via useSearchParams(), which Next.js 16
+// requires be wrapped in <Suspense> at build time.
+export const dynamic = "force-dynamic";
 
 export default function DonatePage() {
   return (
@@ -37,7 +45,9 @@ export default function DonatePage() {
 
       <section className="container-page py-12 md:py-20">
         <FadeUp>
-          <DonateForm />
+          <Suspense fallback={<div className="min-h-[200px]" aria-hidden />}>
+            <DonateForm />
+          </Suspense>
         </FadeUp>
       </section>
     </>
